@@ -6,7 +6,7 @@
 
 class homeWidget extends HTMLElement {
   static _WIDGETNAME = "home-widget";
-  static _WIDGETURL = "https://calm-glacier-086945410.4.azurestaticapps.net";
+  static _WIDGETURL = "https://lively-stone-0bffa0e10.4.azurestaticapps.net";
 
   connectedCallback() {
     this.classList.add("neo-widget");
