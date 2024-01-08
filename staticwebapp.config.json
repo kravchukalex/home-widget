@@ -1,0 +1,29 @@
+{
+    "trailingSlash": "never",
+    "routes" : [
+        {
+            "route": "/index.html",
+            "rewrite" : "/home-widget.html"
+        },
+        {
+            "route": "/home-widget.html",
+            "rewrite" : "/home-widget.html"
+        },
+        {
+            "route": "/home-widget.css",
+            "rewrite" : "/home-widget.css"
+        },
+        {
+            "route": "/home-widget.js",
+            "rewrite" : "/home-widget.js"
+        }
+    ],  
+        "globalHeaders": {
+      
+          "Access-Control-Allow-Origin": "*",
+      
+          "Access-Control-Allow-Methods": "POST, GET, OPTIONS"
+      
+        }
+      
+}
